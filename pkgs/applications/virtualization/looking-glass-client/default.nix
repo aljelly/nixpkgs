@@ -1,6 +1,6 @@
 { lib, stdenv, fetchFromGitHub, cmake, pkg-config, SDL2, SDL2_ttf, spice-protocol
 , fontconfig, libX11, freefont_ttf, nettle, libpthreadstubs, libXScrnSaver, libXau, libXdmcp
-, libXi, libXext, wayland, wayland-protocols, egl-wayland, libffi, libGLU, expat, libbfd
+, libXi, libXext, wayland, wayland-protocols, libffi, libGL, expat, libbfd
 }:
 
 stdenv.mkDerivation rec {
@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
 
   buildInputs = [
     SDL2 SDL2_ttf spice-protocol fontconfig libX11 freefont_ttf nettle
-    libpthreadstubs libXScrnSaver libXau libXdmcp libXi libXext wayland wayland-protocols egl-wayland libffi libGLU expat
+    libpthreadstubs libXScrnSaver libXau libXdmcp libXi libXext wayland wayland-protocols libffi libGL expat
     libbfd
   ];
 
