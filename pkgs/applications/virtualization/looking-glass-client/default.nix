@@ -1,5 +1,5 @@
 { lib, stdenv, fetchFromGitHub, cmake, pkg-config, SDL2, SDL2_ttf, spice-protocol
-, fontconfig, libX11, freefont_ttf, nettle, libpthreadstubs, libXau, libXdmcp
+, fontconfig, libX11, freefont_ttf, nettle, libpthreadstubs, libXScrnSaver, libXau, libXdmcp
 , libXi, libXext, wayland, libffi, libGLU, expat, libbfd
 }:
 
